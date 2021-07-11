@@ -70,7 +70,7 @@ export default class Home extends Component {
                         <nav>
                             <ul>
                                 <li><a data-text="Home" href="./#hero">Home</a></li>
-                                <li><a data-text="About" href="./#about">About</a></li>
+                                <li><a data-text="About" href="/about">About</a></li>
                                 <li><a data-text="Projects" href="./#projects">Projects</a></li>
                                 <li><a data-text="Testimonial" href="./#testimonial">Testimonial</a></li>
                                 <li><a data-text="Contact" href="/contact">Contact</a></li>
@@ -209,7 +209,7 @@ export default class Home extends Component {
                                 </p>
                                 <div className="buttons">
                                     <a href="./resume.txt" className="primary-btn" download="">Download Resume</a>
-                                    <a href="./contact.html" className="primary-btn outline">My Experiences</a>
+                                    <a href="/about" className="primary-btn outline">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -334,7 +334,7 @@ export default class Home extends Component {
                                 <h2 className="column-heading">Important<br />Links</h2>
                                 <ul>
                                     <li><a href="/#home">Home</a></li>
-                                    <li><a href="/#about">About</a></li>
+                                    <li><a href="/about">About</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                     <li><a href="/#Project">Project</a></li>
                                     <li><a href="/#testimonial">Testimonial</a></li>
