@@ -255,6 +255,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #services {
+        padding: 3rem 0;
+    }
     #services .all-items {
         flex-direction: column;
         text-align: center;
@@ -416,6 +419,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #stats {
+        padding: 2.5rem 0;
+    }
     #stats .all-items {
         flex-direction: column;
     }
@@ -489,6 +495,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #about {
+        padding: 0;
+    }
     #about .wrapper {
         flex-direction: column-reverse;
         text-align: center;
@@ -626,6 +635,9 @@
 }
 
 @media only screen and (max-width: 450px) {
+    #projects {
+        padding: 0;
+    }
     #projects .item .right .buttons {
         flex-direction: column;
     }

@@ -44,17 +44,17 @@ export default class Home extends Component {
     }
     render() {
         return (
-            <body>
+            <div className="body">
                 <div className="scroll-top">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
                     </svg>
                 </div>
 
                 <section id="navigation">
                     <div className="nav-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </div>
                 </section>
@@ -62,7 +62,7 @@ export default class Home extends Component {
                 <div id="nav-content">
                     <div className="close-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </div>
                     <div className="wrapper">
@@ -96,7 +96,7 @@ export default class Home extends Component {
                             </div>
                         </div>
                         <div className="right">
-                            <img src="image/profile.jpg" alt="" />
+                            <img src="image/profile1.jpg" alt="" />
                         </div>
                     </div>
                 </section>
@@ -108,7 +108,7 @@ export default class Home extends Component {
                             <div className="item">
                                 <div className="icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"
                                             d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                 </div>
@@ -120,7 +120,7 @@ export default class Home extends Component {
                             <div className="item">
                                 <div className="icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"
                                             d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                                     </svg>
                                 </div>
@@ -241,8 +241,8 @@ export default class Home extends Component {
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24"
                                                 stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    stroke-width="2"
+                                                <path strokeLinecap="round" strokeLinejoin="round"
+                                                    strokeWidth="2"
                                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0
                                                     002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                             </svg>
@@ -277,7 +277,7 @@ export default class Home extends Component {
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                                 viewBox="0 0 24 24"
                                                 stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 
                                                     002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                             </svg>
@@ -307,7 +307,7 @@ export default class Home extends Component {
                                             <span>Preview</span>
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 
                                                     4h6m0 0v6m0-6L10 14" />
                                             </svg>
@@ -343,25 +343,25 @@ export default class Home extends Component {
                             <div className="col-3">
                                 <h2 className="column-heading">Contact<br />Info</h2>
                                 <ul>
-                                    <li><a href="#">agnisaha7799@gmail.com</a></li>
-                                    <li><a href="#">+91 834 698 3581</a></li>
-                                    <li><a href="#">Kolkata, West Bengal, India</a></li>
+                                    <li><a href="#filluplater">agnisaha7799@gmail.com</a></li>
+                                    <li><a href="#filluplater">+91 834 698 3581</a></li>
+                                    <li><a href="#filluplater">Kolkata, West Bengal, India</a></li>
                                 </ul>
                             </div>
                             <div className="col-4">
                                 <h2 className="column-heading">Social<br />Links</h2>
                                 <ul>
                                     <li><a href="https://www.facebook.com/">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                     </a></li>
                                     <li><a href="https://www.twitter.com/">
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </a></li>
                                     <li><a href="https://www.instagram.com/">
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </a></li>
                                     <li><a href="https://co.linkedin.com/">
-                                        <i class="fab fa-linkedin-in"></i>
+                                        <i className="fab fa-linkedin-in"></i>
                                     </a></li>
                                 </ul>
                             </div>
@@ -369,7 +369,7 @@ export default class Home extends Component {
                     </div>
                 </section>
 
-            </body>
+            </div>
         )
     }
 }

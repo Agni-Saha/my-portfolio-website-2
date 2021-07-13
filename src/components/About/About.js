@@ -44,11 +44,12 @@ export default class About extends Component {
     }
     render() {
         return (
-            <div className="aboutStyles">
+            <div className="aboutStyles body">
+                
                 <section id="navigation">
                     <div className="nav-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </div>
                 </section>
@@ -56,7 +57,7 @@ export default class About extends Component {
                 <div id="nav-content">
                     <div className="close-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </div>
                     <div className="wrapper">
@@ -161,31 +162,32 @@ export default class About extends Component {
                             <div className="col-3">
                                 <h2 className="column-heading">Contact<br />Info</h2>
                                 <ul>
-                                    <li><a href="#">agnisaha7799@gmail.com</a></li>
-                                    <li><a href="#">+91 834 698 3581</a></li>
-                                    <li><a href="#">Kolkata, West Bengal, India</a></li>
+                                    <li><a href="#filluplater">agnisaha7799@gmail.com</a></li>
+                                    <li><a href="#filluplater">+91 834 698 3581</a></li>
+                                    <li><a href="#filluplater">Kolkata, West Bengal, India</a></li>
                                 </ul>
                             </div>
                             <div className="col-4">
                                 <h2 className="column-heading">Social<br />Links</h2>
                                 <ul>
                                     <li><a href="https://www.facebook.com/">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                     </a></li>
                                     <li><a href="https://www.twitter.com/">
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </a></li>
                                     <li><a href="https://www.instagram.com/">
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </a></li>
                                     <li><a href="https://co.linkedin.com/">
-                                        <i class="fab fa-linkedin-in"></i>
+                                        <i className="fab fa-linkedin-in"></i>
                                     </a></li>
                                 </ul>
                             </div>
                         </footer>
                     </div>
                 </section>
+            
             </div>
         )
     }

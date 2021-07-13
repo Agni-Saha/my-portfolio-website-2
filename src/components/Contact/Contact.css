@@ -35,6 +35,11 @@
     margin-bottom: 5rem;
 }
 
+#contact .left .contact-column-heading {
+    font-size: 2.5rem;
+
+}
+
 #contact .left .contact-info ul {
     list-style: none;
 }
@@ -51,6 +56,7 @@
     gap: 1rem;
     font-size: 2rem;
     padding: 1.5rem;
+    pointer-events: none; /*--------------remove this here--------------------*/
 }
 
 #contact .left .contact-info ul li:hover {
@@ -78,11 +84,21 @@
     display: flex;
     list-style: none;
     font-size: 2rem;
-    gap: 2rem;
+    gap: 1rem;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 #contact .left .social-info ul li a {
     color: var(--primary-color);
+    transition: all 0.3s;
+    padding: 5px 10px;
+}
+
+#contact .left .social-info ul li a:hover {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5rem;
 }
 
 #contact .right .form-wrapper {
@@ -151,13 +167,18 @@
     font-size: 2rem;
     text-transform: uppercase;
     height: auto;
-    padding: 1rem 0;
+    padding: 1.2rem 0 1rem 0;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.3rem;
     border-radius: 8px;
     outline: none;
     border: none;
     cursor: pointer;
+    transition: all 0.3s;
+}
+
+#contact .right .form-wrapper button:hover {
+    transform: translateY(-5px);
 }
 
 @media only screen and (max-width: 768px) {

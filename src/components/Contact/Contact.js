@@ -44,18 +44,20 @@ export default class Contact extends Component {
     }
     render() {
         return (
-            <body>
+            <div className="body">
+
                 <section id="navigation">
                     <div className="nav-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </div>
                 </section>
+
                 <div id="nav-content">
                     <div className="close-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </div>
                     <div className="wrapper">
@@ -84,20 +86,23 @@ export default class Contact extends Component {
                                     I look forward to hearing from you.
                                 </p>
                                 <div className="contact-info">
+                                    <h2 className="contact-column-heading">
+                                        Contact Links
+                                    </h2>
                                     <ul>
-                                        <li><a>
+                                        <li><a href="#filluplater">
                                             <span className="icon">
                                                 <i className="fas fa-phone-alt"></i>
                                             </span>
                                             <span className="text">+91 834 698 3581</span>
                                         </a></li>
-                                        <li><a>
+                                        <li><a href="#filluplater">
                                             <span className="icon">
                                                 <i className="far fa-envelope"></i>
                                             </span>
                                             <span className="text">agnisaha337599@gmail.com</span>
                                         </a></li>
-                                        <li><a>
+                                        <li><a href="#filluplater">
                                             <span className="icon">
                                                 <i className="fas fa-location-arrow"></i>
                                             </span>
@@ -106,18 +111,21 @@ export default class Contact extends Component {
                                     </ul>
                                 </div>
                                 <div className="social-info">
+                                    <h2 className="contact-column-heading">
+                                        Social Links
+                                    </h2>
                                     <ul>
                                         <li><a href="https://www.facebook.com/">
-                                            <i class="fab fa-facebook-f"></i>
+                                            <i className="fab fa-facebook-f"></i>
                                         </a></li>
                                         <li><a href="https://www.twitter.com/">
-                                            <i class="fab fa-twitter"></i>
+                                            <i className="fab fa-twitter"></i>
                                         </a></li>
                                         <li><a href="https://www.instagram.com/">
-                                            <i class="fab fa-instagram"></i>
+                                            <i className="fab fa-instagram"></i>
                                         </a></li>
                                         <li><a href="https://co.linkedin.com/">
-                                            <i class="fab fa-linkedin-in"></i>
+                                            <i className="fab fa-linkedin-in"></i>
                                         </a></li>
                                     </ul>
                                 </div>
@@ -126,7 +134,7 @@ export default class Contact extends Component {
                                 <div className="form-wrapper">
                                     <form action="#">
                                         <div className="form-group">
-                                            <label for="name">Your Name</label>
+                                            <label htmlFor="name">Your Name</label>
                                             <div className="input-wrapper">
                                                 <span className="icon">
                                                     <i className="far fa-user"></i>
@@ -135,7 +143,7 @@ export default class Contact extends Component {
                                             </div>
                                         </div>
                                         <div className="form-group">
-                                            <label for="email">Your Email</label>
+                                            <label htmlFor="email">Your Email</label>
                                             <div className="input-wrapper">
                                                 <span className="icon">
                                                     <i className="far fa-envelope"></i>
@@ -144,7 +152,7 @@ export default class Contact extends Component {
                                             </div>
                                         </div>
                                         <div className="form-group">
-                                            <label for="message">Message</label>
+                                            <label htmlFor="message">Message</label>
 
                                             <textarea type="text" id="message" name="message" width="100%">
 
@@ -181,25 +189,27 @@ export default class Contact extends Component {
                             <div className="col-3">
                                 <h2 className="column-heading">Contact<br />Info</h2>
                                 <ul>
-                                    <li><a href="#">agnisaha337599@gmail.com</a></li>
-                                    <li><a href="#">+91 834 698 3581</a></li>
-                                    <li><a href="#">Kolkata, West Bengal, India</a></li>
+                                    <li><a href="mailto:agnisaha337599@gmail.com">
+                                        agnisaha337599@gmail.com
+                                    </a></li>
+                                    <li><a href="#call">+91 834 698 3581</a></li>
+                                    <li><a href="#location">Kolkata, West Bengal, India</a></li>
                                 </ul>
                             </div>
                             <div className="col-4">
                                 <h2 className="column-heading">Social<br />Links</h2>
                                 <ul>
                                     <li><a href="https://www.facebook.com/">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                     </a></li>
                                     <li><a href="https://www.twitter.com/">
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </a></li>
                                     <li><a href="https://www.instagram.com/">
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </a></li>
                                     <li><a href="https://co.linkedin.com/">
-                                        <i class="fab fa-linkedin-in"></i>
+                                        <i className="fab fa-linkedin-in"></i>
                                     </a></li>
                                 </ul>
                             </div>
@@ -208,7 +218,8 @@ export default class Contact extends Component {
                 </section>
 
                 <script src="./app.js"></script>
-            </body>
+
+            </div>
         )
     }
 }
